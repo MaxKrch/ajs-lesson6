@@ -18,7 +18,7 @@ test("correct sort", () => {
 
 
 test("sort wyth empty value", () => {
-	const sample = ["rang", "name"];
+	const sample = ["rang", "name", "shield"];
 	const received = orderByProps(obj, sample);
 	const expected = [
 		{key: 'name', value: 'мечник'},

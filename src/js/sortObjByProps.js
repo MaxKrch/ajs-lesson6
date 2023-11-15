@@ -22,9 +22,7 @@ const orderByProps = (obj, sample) => {
 
 	const sortingArray = sortingArrayWithSample.concat(arraySortWithAlphabet);
 	const sortingAndFilterArray = sortingArray.filter((item) => {
-		if(item != undefined) {
-			return item;
-		}
+		return item;
 	})
 	return sortingAndFilterArray;
 }
